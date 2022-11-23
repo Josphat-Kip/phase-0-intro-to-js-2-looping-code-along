@@ -15,7 +15,7 @@ function countDown(number)
     while( number >= count)
     {
         console.log(number);
-        number -=1;
+        number +=1;
     }
 }
 countDown(10);
